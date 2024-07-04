@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(135deg, #1a2a3a 0%, #0a1520 100%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+.container {
+max-width: 320px;
+width: 100%;
+padding: 30px;
+background-color: rgba(34, 34, 34, 0.95);
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+text-align: center;
+margin-bottom: 20px;
+}
+
+h2 {
+color: #fff;
+font-size: 20px;
+text-align: center;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+
+label {
+display: block;
+color: #888;
+font-size: 14px;
+margin-bottom: 5px;
+}
+
+input[type="text"] {
+width: calc(100% - 20px);
+padding: 10px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #444;
+color: #fff;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+button:hover {
+background-color: #555;
+}
+
+.social-buttons {
+display: flex;
+justify-content: space-between;
+}
+
+.social-button {
+width: 48%;
+padding: 10px;
+color: #fff;
+font-size: 14px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.social-button svg {
+width: 20px;
+height: 20px;
+margin-right: 5px;
+}
+
+.discord {
+background-color: #7289DA;
+}
+
+.github {
+background-color: #24292e;
+}
+
+.popup {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: rgba(255, 0, 0, 0.1);
+color: #fff;
+padding: 15px;
+border-radius: 5px;
+display: none;
+align-items: center;
+backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.popup-content {
+margin-right: 10px;
+}
+
+.close-popup {
+cursor: pointer;
+font-weight: bold;
+}
